@@ -1,5 +1,41 @@
 /* Original Flash banner font Eras Bold ITC. */
 
+/* Testing the effects of all the properties */ 
+/* Shorthand for font */
+p.shorthand {
+    font: oblique bold 12px/30px Georgia, serif;
+}
+/* Test all font properties */
+p.thick {
+    text-align: right;
+    /* font:  ; */
+    font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+    font-style: oblique;
+    font-size: 10vh;
+    font-variant: small-caps;
+    font-weight: 1100;
+}
+a {
+    color: lightblue;
+}
+h3 {
+    text-align: left;
+    font-size: 2em;
+    padding-right: 50%;
+}
+carousel-caption d-none d-md-block {
+    text-align: justify;
+    padding-left: 0; 
+}
+/* test animation */
+@keyframes myFontAnimation {
+    50% {font-weight: bold;}
+    50% {font-style: oblique;}
+}
+/* _test fin */
+/*  */
+/* ============================== */
+
 #carousel-custom {
     margin-top:  10px;
     width: 100%;

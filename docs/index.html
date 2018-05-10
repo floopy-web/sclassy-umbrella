@@ -24,8 +24,11 @@
         <div class="row">
 
             <!-- use bootstrap grid layouts col lg md to automatically scale deskto/mobile.       also d-block . https://getbootstrap.com/docs/4.0/components/carousel/-->
+            <!-- - Note:  SLIDE TIMER DURATION data-interval  -->
+            <!-- Carousel data attributes e.g. data-. data-interval. -->
+            <!-- data-pause hover event doesn't work consistently on Chrome FIXED: appended JavaScript script on $('carousel').hover( $(this).carousel('pause') and cycle) -->
             <div class="col-lg-12">
-                <div id="carousel-custom" class="carousel slide" data-ride="carousel" data-interval="800">
+                <div id="carousel-custom" class="carousel slide" data-ride="carousel" data-interval="1500" data-pause="hover">
                     <!-- data interval slide timer for bootstrap carousel -->
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
@@ -47,6 +50,8 @@
                                 <a href="https://www.aclas.com.au/index.php?option=com_content&view=article&id=23&Itemid=42">
                                     <h3>Australia's leading Point of Sale equipment</h3>
                                     <p>Second slide label</p>
+                                    <pre> Preformatted pre tag <b> bold </b> 
+                                    end pre formatted tag </pre>
                                 </a>
 
                             </div>
@@ -71,7 +76,6 @@
                         <i class="fa fa-chevron-right"></i>
                         <span class="sr-only">Next</span>
                     </a>
-
                     <!-- Indicators -->
                     <!-- Thumbnail nav buttons for each slide ~ optimise for 250 x 80 -->
                     <ol class="carousel-indicators visible-sm-block hidden-xs-block visible-md-block visible-lg-block">
@@ -88,9 +92,11 @@
                         <!-- 200. -->
 
                     </ol>
+
                 </div>
 
             </div>
+
         </div>
     </div>
 
@@ -125,6 +131,12 @@
         if (!window.jQuery) {
             document.write('<script src="./js/jquery-3.3.1.min.js"><\/script>');
         }
+
+        $('.carousel').hover(function () {
+            $(this).carousel('pause')
+        }, function () {
+            $(this).carousel('cycle')
+        })
     </script>
 
 
