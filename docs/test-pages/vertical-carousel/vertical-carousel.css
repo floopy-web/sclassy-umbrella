@@ -14,7 +14,7 @@
 .carousel {
     /* display: flex; */
     /* min-width: 200px; */
-    background: yellow;
+    background: #0a162c;
     max-width: 800px;
     display: inline;
 }
