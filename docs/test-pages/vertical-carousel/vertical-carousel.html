@@ -90,6 +90,8 @@
 
 <!-- - FIXME: Local fallback: Bootstrap, JQuery -->
 <script>
+    // Potentially fix issues with jQuery conflict and mootools with old joomla web. check if bootstrap also works.
+    $.noConflict() 
     if (!$.fn.modal) {
         document.write('<script src="../latest-sources-fallback/js/bootstrap.min.js><\/script>');
         document.write('<link rel="stylesheet" href="../latest-sources-fallback/css/bootstrap.min.css">');
@@ -97,6 +99,8 @@
     if (!window.jQuery) {
         document.write('<script src="../latest-sources-fallback/js/jquery-3.3.1.min.js"><\/script>');
     }
+
+    
 </script>
 
 </html>
