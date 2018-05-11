@@ -18,45 +18,48 @@
 
 <body>
     <h1>Vertical Carousel</h1>
-    <div class="container">
-        <div id="carouselExampleControls" class="carousel vert slide" data-ride="carousel" data-interval="900">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block mx-auto img-fluid" src="https://placehold.it/800x400" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block mx-auto img-fluid" src="https://placehold.it/800x400/dd4444/fff" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block mx-auto img-fluid" src="https://placehold.it/800x400/777" alt="Third slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block mx-auto img-fluid" src="../../assets/1-Parking.png" alt="Third slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block mx-auto img-fluid" src="../../assets/2-Point-of-Sale.png" alt="Third slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block mx-auto img-fluid" src="../../assets/3-Surveillance.png" alt="Third slide">
-                </div>
 
+    <div class="container">
+        <div id="carousel-side-menu" class="carousel-side-menu">
+            Side
+            <br>
+
+            <!-- Carousel control buttons only work easily under the carousel div -->
+            <img src="../../assets/snipped_test/snipped-Parking-400x130.png" alt="..." class="img-responsive">
+            <img src="../../assets/snipped_test/snipped-Point-of-Sale-400x130.png" alt="..." class="img-responsive">
+            <img src="../../assets/snipped_test/snipped-Surveillance-400x130.png" alt="..." class="img-responsive">
+        </div>
+        <div id="container-carousel" class="container-carousel">
+            test
+            <div id="carousel-custom" class="carousel vert slide" data-ride="carousel" data-interval="900">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-custom" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-custom" data-slide-to="1"></li>
+                    <li data-target="#carousel-custom" data-slide-to="2"></li>
+                    <li data-target="#carousel-custom" data-slide-to="3"></li>
+
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block mx-auto img-fluid" src="../../assets/1-Parking.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block mx-auto img-fluid" src="../../assets/2-Point-of-Sale.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block mx-auto img-fluid" src="../../assets/3-Surveillance.png" alt="Third slide">
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
     </div>
 </body>

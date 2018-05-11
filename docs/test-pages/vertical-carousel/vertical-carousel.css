@@ -1,3 +1,47 @@
+.container {
+    /* display: flex; */
+    min-width: 2000px; /* test */
+    display: inline;
+    background: red;
+}
+.carousel {
+    /* display: flex; */
+    /* min-width: 200px; */
+    background: yellow;
+    max-width:800px;
+}
+.carousel-side-menu {
+    width: 400px;
+    flex-flow: row wrap;
+    display: flex;
+    background: cornflowerblue;
+}
+#carousel-side-menu img {
+    flex-flow: row wrap;
+    display: flex;
+    
+}
+.container-carousel {
+    background: darkgoldenrod;
+    max-width: 802px;
+}
+/* Image thumbnail carousel indicators for li img */
+/* #carousel-custom .carousel-indicators li {
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    height: auto;
+    margin: 0 !important;
+    width: auto;
+} 
+#carousel-custom .carousel-indicators li img {
+    display: block;
+    
+    opacity: 0.5;
+    width: 250px;
+} */
+
 .vert .carousel-item-next.carousel-item-left,
 .vert .carousel-item-prev.carousel-item-right {
     -webkit-transform: translate3d(0, 0, 0);
