@@ -3,3 +3,5 @@ theme: jekyll-theme-slate
 # Add for sitemap
 plugins:
   - jekyll-sitemap
+
+# Need to install bundler and/or gem to update 
