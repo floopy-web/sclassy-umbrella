@@ -1,7 +1,7 @@
 .container {
     /* display: flex; */
-    min-width: 2000px; /* test */
-    display: inline;
+    /* min-width: 2000px; test */
+    display: flex;
     background: red;
 }
 .carousel {
@@ -9,22 +9,33 @@
     /* min-width: 200px; */
     background: yellow;
     max-width:800px;
+    display: inline;
 }
 .carousel-side-menu {
-    width: 400px;
+    /* width: 400px; */
     flex-flow: row wrap;
     display: flex;
     background: cornflowerblue;
+    display: inline;
 }
 #carousel-side-menu img {
     flex-flow: row wrap;
     display: flex;
     
+    
 }
 .container-carousel {
     background: darkgoldenrod;
-    max-width: 802px;
+    min-width: 700px;
+    display: inline;
 }
+/* .carousel-item {
+    /* max-width: 400px;
+} */
+/* .carousel-inner {
+    max-width: 800px;
+} */
+
 /* Image thumbnail carousel indicators for li img */
 /* #carousel-custom .carousel-indicators li {
     background-color: transparent;

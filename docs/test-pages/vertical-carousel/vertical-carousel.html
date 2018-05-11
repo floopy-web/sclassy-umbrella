@@ -20,36 +20,45 @@
     <h1>Vertical Carousel</h1>
 
     <div class="container">
-        <div id="carousel-side-menu" class="carousel-side-menu">
-            Side
-            <br>
 
+        <div id="carousel-side-menu" class="carousel-side-menu">
             <!-- Carousel control buttons only work easily under the carousel div -->
-            <img src="../../assets/snipped_test/snipped-Parking-400x130.png" alt="..." class="img-responsive">
-            <img src="../../assets/snipped_test/snipped-Point-of-Sale-400x130.png" alt="..." class="img-responsive">
-            <img src="../../assets/snipped_test/snipped-Surveillance-400x130.png" alt="..." class="img-responsive">
+            <!-- - TODO: Replace absolute links with relative links once verified -->
+            <a href="http://aclas.com.au/index.php?option=com_content&view=article&id=22&Itemid=41">
+                <img src="../../assets/snipped_test/snipped-Parking-400x130.png" alt="..." class="img-responsive">
+            </a>
+            <a href="http://aclas.com.au/index.php?option=com_content&view=article&id=23&Itemid=42">
+                <img src="../../assets/snipped_test/snipped-Point-of-Sale-400x130.png" alt="..." class="img-responsive">
+
+            </a>
+            <a href="http://aclas.com.au/index.php?option=com_content&view=article&id=24&Itemid=43">
+                <img src="../../assets/snipped_test/snipped-Surveillance-400x130.png" alt="..." class="img-responsive">
+            </a>
         </div>
+
         <div id="container-carousel" class="container-carousel">
-            test
-            <div id="carousel-custom" class="carousel vert slide" data-ride="carousel" data-interval="900">
+            <div id="carousel-custom" class="carousel vert slide" data-ride="carousel" data-interval="5000">
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-custom" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-custom" data-slide-to="1"></li>
                     <li data-target="#carousel-custom" data-slide-to="2"></li>
-                    <li data-target="#carousel-custom" data-slide-to="3"></li>
-
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block mx-auto img-fluid" src="../../assets/1-Parking.png" alt="Third slide">
+                        <a href="http://aclas.com.au/index.php?option=com_content&view=article&id=22&Itemid=41">
+                            <img class="d-block mx-auto img-fluid" src="../../assets/banner-images/1-parking-700x380-compress.png" alt="First slide: Parking systems">
+                        </a>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block mx-auto img-fluid" src="../../assets/2-Point-of-Sale.png" alt="Third slide">
+                        <a href="http://aclas.com.au/index.php?option=com_content&view=article&id=23&Itemid=42">
+                            <img class="d-block mx-auto img-fluid" src="../../assets/banner-images/2-point-of-sale-700x380-compress.png" alt="Second slide: Australia's Leading Point of Sale equipment">
+                        </a>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block mx-auto img-fluid" src="../../assets/3-Surveillance.png" alt="Third slide">
+                        <a href="http://aclas.com.au/index.php?option=com_content&view=article&id=24&Itemid=43">
+                            <img class="d-block mx-auto img-fluid" src="../../assets/banner-images/3-surveillance-700x380-compress.png" alt="Third slide: Security solutions">
+                        </a>
                     </div>
-
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
