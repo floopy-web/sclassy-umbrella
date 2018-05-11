@@ -1,14 +1,21 @@
+.banner {
+    align-items: center;
+    display: flex;
+    background: #0a162c;
+}
 .container {
     /* display: flex; */
     /* min-width: 2000px; test */
+    /* min-width: 100%; */
+    align-items: center;
     display: flex;
-    background: red;
+    background: #0a162c;
 }
 .carousel {
     /* display: flex; */
     /* min-width: 200px; */
     background: yellow;
-    max-width:800px;
+    max-width: 800px;
     display: inline;
 }
 .carousel-side-menu {
@@ -26,7 +33,7 @@
 }
 .container-carousel {
     background: darkgoldenrod;
-    min-width: 700px;
+    /* min-width: 70px; */
     display: inline;
 }
 /* .carousel-item {
