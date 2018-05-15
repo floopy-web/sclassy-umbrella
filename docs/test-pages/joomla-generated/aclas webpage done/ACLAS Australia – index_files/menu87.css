@@ -1,0 +1,136 @@
+.transMenu87 {
+ position:absolute ; 
+ overflow:hidden; 
+ left:-1000px; 
+ top:-1000px; 
+}
+.transMenu87 .content {
+ position:absolute  ; 
+}
+.transMenu87 .items {
+ border: 0px none transparent ; 
+ position:relative ; 
+ left:0px; top:0px; 
+ z-index:2; 
+}
+.transMenu87  td
+{
+ padding: 10px 15px 10px 15px  !important;  
+ font-size: 11px !important ; 
+ font-family: Arial, Helvetica, sans-serif !important ; 
+ text-align: left !important ; 
+ font-weight: normal !important ; 
+ color: #FFFFFF !important ; 
+} 
+#subwrap87 
+{ 
+ text-align: left ; 
+}
+.transMenu87  .item.hover td
+{ 
+ color: #0d3692 !important ; 
+}
+.transMenu87 .item { 
+ text-decoration: none ; 
+ cursor:pointer; 
+ cursor:hand; 
+}
+.transMenu87 .background {
+ background-color: #113476 !important ; 
+ position:absolute ; 
+ left:0px; top:0px; 
+ z-index:1; 
+}
+.transMenu87 .shadowRight { 
+ position:absolute ; 
+ z-index:3; 
+ top:-3000px; width:2px; 
+}
+.transMenu87 .shadowBottom { 
+ position:absolute ; 
+ z-index:1; 
+ left:-3000px; height:2px; 
+}
+.transMenu87 .item.hover {
+ background-color: #F4F4F4 !important ; 
+}
+.transMenu87 .item img { 
+ margin-left:10px !important ; 
+}
+table.menu87 {
+ top: 0px; 
+ left: 0px; 
+ position:relative ; 
+ margin:0px !important ; 
+ border: 0px none transparent ; 
+ z-index: 1; 
+}
+table.menu87 a{
+ margin:0px !important ; 
+ padding: 0px 0px 0px 0px  !important ; 
+ display:block !important; 
+ position:relative !important ; 
+}
+div.menu87 a,
+div.menu87 a:visited,
+div.menu87 a:link {
+ width:107px; 
+ height:52px; 
+ font-size: 11px !important ; 
+ font-family: Arial, Helvetica, sans-serif !important ; 
+ text-align: center !important ; 
+ font-weight: normal !important ; 
+ color: #FFFFFF !important ; 
+ text-decoration: none !important ; 
+ margin-bottom:0px !important ; 
+ display:block !important; 
+ white-space:nowrap ; 
+ line-height:52px;
+ text-transform:uppercase;
+}
+div.menu87 td {
+ border-bottom: 0px none transparent ; 
+ border-top: 0px none transparent ; 
+ border-left: 0px none transparent ; 
+ background: URL("http://122.201.102.68/~aclas//modules/mod_swmenupro/images/bg_menu_products.png") top no-repeat transparent;
+} 
+div.menu87 td.last87 {
+ border-right: 0px none transparent ; 
+} 
+#trans-active87 a{
+ color: #0d3692 !important ; 
+ background: URL("http://122.201.102.68/~aclas//modules/mod_swmenupro/images/bg_menu_products_over.png") top no-repeat transparent;
+
+} 
+#menu87 a.hover   { 
+ background: URL("http://122.201.102.68/~aclas//modules/mod_swmenupro/images/bg_menu_products_over.png") top no-repeat transparent;
+ color: #0d3692 !important ; 
+}
+#menu87 span {
+ display:none; 
+}
+#menu87 a img.seq1,
+.transMenu87 img.seq1
+{
+ display:    inline; 
+}
+#menu87 a.hover img.seq2,
+.transMenu87 .item.hover img.seq2 
+{
+ display:   inline; 
+}
+#menu87 a.hover img.seq1,
+#menu87 a img.seq2,
+.transMenu87 img.seq2,
+.transMenu87 .item.hover img.seq1
+{
+ display:   none; 
+}
+#trans-active87 a img.seq1
+{
+ display: none;
+}
+#trans-active87 a img.seq2
+{
+ display: inline;
+}
