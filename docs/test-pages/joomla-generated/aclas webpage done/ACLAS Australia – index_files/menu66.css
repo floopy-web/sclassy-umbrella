@@ -1,0 +1,138 @@
+.transMenu66 {
+ position:absolute ; 
+ overflow:hidden; 
+ left:-1000px; 
+ top:-1000px; 
+}
+.transMenu66 .content {
+ position:absolute  ; 
+}
+.transMenu66 .items {
+ border: 0px none transparent ; 
+ position:relative ; 
+ left:0px; top:0px; 
+ z-index:2; 
+}
+.transMenu66  td
+{
+ padding: 10px 15px 10px 15px  !important;  
+ font-size: 11px !important ; 
+ font-family: Arial, Helvetica, sans-serif !important ; 
+ text-align: left !important ; 
+ font-weight: normal !important ; 
+ color: #FFFFFF !important ; 
+} 
+#subwrap66 
+{ 
+ text-align: left ; 
+}
+.transMenu66  .item.hover td
+{ 
+ color: #0d3692 !important ; 
+}
+.transMenu66 .item { 
+ text-decoration: none ; 
+ cursor:pointer; 
+ cursor:hand; 
+}
+.transMenu66 .background {
+ background-color: #113476 !important ; 
+ position:absolute ; 
+ left:0px; top:0px; 
+ z-index:1; 
+}
+.transMenu66 .shadowRight { 
+ position:absolute ; 
+ z-index:3; 
+ top:-3000px; width:2px; 
+}
+.transMenu66 .shadowBottom { 
+ position:absolute ; 
+ z-index:1; 
+ left:-3000px; height:2px; 
+ opacity:1; 
+ filter:alpha(opacity=100)
+}
+.transMenu66 .item.hover {
+ background-color: #F4F4F4 !important ; 
+}
+.transMenu66 .item img { 
+ margin-left:10px !important ; 
+}
+table.menu66 {
+ top: 0px; 
+ left: 0px; 
+ position:relative ; 
+ margin:0px !important ; 
+ border: 0px none transparent ; 
+ z-index: 1; 
+}
+table.menu66 a{
+ margin:0px !important ; 
+ padding: 0px 0px 0px 0px  !important ; 
+ display:block !important; 
+ position:relative !important ; 
+}
+div.menu66 a,
+div.menu66 a:visited,
+div.menu66 a:link {
+ width:105px; 
+ height:52px; 
+ font-size: 11px !important ; 
+ font-family: Arial, Helvetica, sans-serif !important ; 
+ text-align: center !important ; 
+ font-weight: normal !important ; 
+ color: #FFFFFF !important ; 
+ text-decoration: none !important ; 
+ margin-bottom:0px !important ; 
+ display:block !important; 
+ white-space:nowrap ; 
+ text-transform:uppercase;
+ line-height:52px;
+}
+div.menu66 td {
+ border-bottom: 0px none transparent ; 
+ border-top: 0px none transparent ; 
+ border-left: 0px none transparent ; 
+ background: URL("http://122.201.102.68/~aclas//modules/mod_swmenupro/images/bg_menu_solutions.png") no-repeat top transparent;
+} 
+div.menu66 td.last66 {
+ border-right: 0px none transparent ; 
+} 
+#trans-active66 a{
+ color: #0d3692 !important ; 
+ background: URL("http://122.201.102.68/~aclas//modules/mod_swmenupro/images/bg_menu_solutions_over.png") transparent no-repeat top  ;
+
+} 
+#menu66 a.hover   { 
+ background: URL("http://122.201.102.68/~aclas//modules/mod_swmenupro/images/bg_menu_solutions_over.png") transparent no-repeat top;
+ color: #0d3692 !important ; 
+}
+#menu66 span {
+ display:none; 
+}
+#menu66 a img.seq1,
+.transMenu66 img.seq1,
+{
+ display:    inline; 
+}
+#menu66 a.hover img.seq2,
+.transMenu66 .item.hover img.seq2 
+{
+ display:   inline; 
+}
+#menu66 a.hover img.seq1,
+#menu66 a img.seq2,
+.transMenu66 img.seq2,
+.transMenu66 .item.hover img.seq1
+{
+ display:   none; 
+}
+#trans-active66 a img.seq1
+{
+ display: none;
+}
+#trans-active66 a img.seq2
+{
+ display: inline;
+}
